@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: my-auth-service
+
+  cloud:
+    kubernetes:
+      reload:
+        period: 1000
+        enabled: true
+      config:
+        enabled: true
+        name: my-auth-service-configs
+        namespace: default
+        sources:
+          - name: my-auth-service-configs
+
+management:
+  endpoint:
+    restart:
+      enabled: true
