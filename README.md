@@ -1,5 +1,9 @@
-# Spring security jwt and social login
+# MyAuthService
 
-### `mvn spring-boot:run`
+Spring security jwt and social login
 
-Requires OpenJDK 14.<br />
+### Run
+
+`mvn spring-boot:run`
+
+Requires OpenJDK 14
